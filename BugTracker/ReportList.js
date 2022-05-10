@@ -84,8 +84,6 @@ const ReportList = ({reports, setReports, staticReports}) => {
 
 
     }
-    console.log(reports)
-    console.log(staticReports)
     let dynamicReports
     reports===undefined
     ?dynamicReports=staticReports
